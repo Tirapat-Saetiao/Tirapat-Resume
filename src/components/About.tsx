@@ -4,8 +4,9 @@ import { Code, Palette, Zap } from "lucide-react";
 
 const About = () => {
   const skills = [
-    "React", "TypeScript", "Node.js", "Python", "PostgreSQL", "MongoDB",
-    "Tailwind CSS", "Next.js", "Express", "Docker", "AWS", "Figma"
+    "React", "JavaScript", "Node.js", "MongoDB",
+    "Tailwind CSS",  "Express",  "Figma" , "Firebase Hosting", 
+    "Strapi" , "Wordpress", "Cursor", "Loveable", "REST APIs", "Render"
   ];
 
   const highlights = [
@@ -27,28 +28,30 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 px-6">
+    <section id="about" className="py-20 px-6 bg-[#1a2236] dark:bg-[#1a2236] transition-colors">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate developer with 5+ years of experience building digital solutions
+            I'm a passionate that study at Mae Fah Luang University
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I started my journey in web development with a curiosity for how things work behind the scenes. 
-              Today, I specialize in creating full-stack applications that not only function flawlessly but also 
-              provide exceptional user experiences.
+              I’m a Software Engineering student at Mae Fah luang University. 
+              I’m passionate and dedicated to web development, 
+              and through some website development, 
+              I have gained valuable skills and know about the work process. 
+              I will continipusly learn and be highly motivated to a 
+              company that offers opportunities for professional growth and valuable experience
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-              or mentoring aspiring developers. I believe in the power of clean, well-documented code and 
-              collaborative development.
+              I have experience in building web applications using modern technologies like React, Node.js, and Tailwind CSS. 
+              I love creating clean, efficient code and designing user-friendly interfaces.
             </p>
           </div>
 

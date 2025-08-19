@@ -31,10 +31,10 @@ const Hero = () => {
             Hello, I'm
           </p>
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-gradient">Alex Johnson</span>
+            <span className="text-gradient">Tirapat Saetiao</span>
           </h1>
           <h2 className="text-2xl md:text-4xl font-light text-muted-foreground mb-8">
-            Full Stack Developer & UI/UX Designer
+            Backend Developer & Web Enthusiast
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
             I craft beautiful, scalable web applications with modern technologies. 

@@ -22,16 +22,16 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-card/30 backdrop-blur-sm border-t border-primary/20 py-12">
+    <footer className="py-20 px-6 bg-gradient-secondary">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           {/* Logo and Description */}
           <div className="text-center md:text-left">
             <div className="text-2xl font-bold mb-2">
-              <span className="text-gradient">Alex Johnson</span>
+              <span className="text-gradient">Tirapat Saetiao</span>
             </div>
             <p className="text-muted-foreground">
-              Building digital experiences with passion and precision
+              Being a developer with a passion
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-primary/20 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} Alex Johnson. Made with <Heart className="h-4 w-4 text-red-500" /> and lots of coffee.
+            © {currentYear} Tirapat Saetiao 
           </p>
         </div>
       </div>
