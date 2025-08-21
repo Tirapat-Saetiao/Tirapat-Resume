@@ -2,13 +2,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
+import chaihuayPic from "@/assets/chaihuay-pic.png";
+import aiportal from "@/assets/ai-portal picture.png";
 
 const Projects = () => {
   const projects = [
     {
       title: "AI Portal for MFU",
       description: "A comprehensive AI portal for Mae Fah Luang University, featuring a chatbot, knowledge base, and user-friendly interface for students and staff.",
-      image: "https://cdn.discordapp.com/attachments/981581187980091445/1407346307902865429/image.png?ex=68a5c4e3&is=68a47363&hm=094d4b227eb5fd5d40b086e0d7a2f4276978b150c5f2a07a9ec7b671848aa0af&",
+      image: aiportal,
       technologies: ["React", "Node.js", "Strapi", "Wordpress", "CSS"],
       liveUrl: "https://ai-portal-c9179.web.app/",
       githubUrl: "https://github.com"
@@ -16,7 +18,7 @@ const Projects = () => {
     {
       title: "Chaihuay Restaurant",
       description: "A Chinese Restaurant with guangtung cuisine that open for over 30 years at Syratthani ",
-      image: "https://cdn.discordapp.com/attachments/981581187980091445/1407347108725653555/image.png?ex=68a5c5a1&is=68a47421&hm=eab0a3af0898269c0a14142a161e90183221260c76746d5c23bd191061e55165&",
+      image: chaihuayPic,
       technologies: ["React.js", "Tailwind CSS", "Firebase Hosting",],
       liveUrl: "https://chaihuay-c241a.firebaseapp.com/",
       githubUrl: "https://github.com"
