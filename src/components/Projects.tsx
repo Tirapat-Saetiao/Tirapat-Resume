@@ -22,22 +22,6 @@ const Projects = () => {
       technologies: ["React.js", "Tailwind CSS", "Firebase Hosting",],
       liveUrl: "https://chaihuay-c241a.firebaseapp.com/",
       githubUrl: "https://github.com"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics using modern APIs.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["React", "D3.js", "OpenWeather API", "Mapbox", "Chart.js"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Personal Finance Tracker",
-      description: "A comprehensive personal finance application with expense tracking, budget planning, and investment portfolio management.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Python", "FastAPI", "PostgreSQL", "Chart.js"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
     }
   ];
 
